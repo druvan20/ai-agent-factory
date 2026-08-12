@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+.venv/
+
+# Secrets & config
+.env
+*.env
+
+# Runtime data (uploads, workspaces, bundles, generated files)
+data/
+
+# Databases
+*.sqlite
+*.db
+
+# ChromaDB vector store
+chroma_data/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Cached graph PNGs (regenerated via /workflows/{name}/graph.png)
+*.png
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
